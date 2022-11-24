@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">    <!--Idioma Español-->
+<head>
+    <meta charset="UTF-8">  <!--Especifica la cordinacion de caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   <!--Especifica el valor de cualquier propiedad-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--Identifica un nombre de propiedad-->
+    <title>Login</title>	<!--Nombre de la pestaña-->
+    <link rel="stylesheet" href="../css/estilos.css">	<!--Enlaza el archivo de HTML con el de CSS-->
+</head>
+<body>      <!-- inicio del login -->
+    <section class="form-main"> <!--Asigna el nombre de la clase-->
+        <div class="form-content">  <!--Asigna el nombre de la clase-->
+            <div class="box">	<!--Asigna el nombre de la clase-->
+                <h3>Técnica Chacabuco N°6</h3>	<!--Nombre de la caja de texto-->
+                <form action="menu5.html">
+                    <div class="input-box">	<!--Asigna el nombre de la clase-->
+                        <input type="text" placeholder="Email" class="input-control" required> 	<!--Input de Email-->
+                    </div>
+                    <div class="input-box"> <!--Asigna el nombre de la clase-->
+                        <input type="password" placeholder="Contraseña" class="input-control" required>		<!--Input de Contraseña-->
+                        <div class="input-link">    
+                            <a href="recuperar-pass.html" class="gradient-text">Olvide mi contraseña</a>	<!--Enlace para recuperar la contraseña-->
+                        </div>
+                    </div>
+                    <button type="submit" class="btn" >Iniciar Sesión</button>		<!--Boton para Iniciar Sesion-->
+                </form>
+                <p>¿No tienes una cuenta? <a href="signup.html" class="gradient-text">Crear cuenta</a></p>	<!--Enlace para crear la cuenta-->	
+            </div>
+        </div>
+    </section>
+</body>       <!-- fin del login -->
+</html>
